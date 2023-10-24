@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>BMI-zing</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!--Header banner-->
     <header>
-        <div class="header">
-            <h1 class="header-title">Calculate your BMI</h1>
-        </div>
+      <div class="header">
+        <h1 class="header-title">Calculate your BMI</h1>
+      </div>
     </header>
+    <!--BMI description-->
     <section class="container">
-        <div>
-            <h2 class="about-BMI">What is the BMI?</h2>
-            <p class="BMI-description">Body mass index (BMI) is a health metric used to gauge a person's weight category quickly, as it is a simple calculation
-            of body fat relative to weight and height.
-            
-            While BMI has its limitations - and should not be the only metric considered when determining your weight class - it is a
-            fast and accessible tool that can help you better understand whether you carry excess body fat, which can put you at
-            risk for health complications ranging from type 2 diabetes to high blood pressure.</p>
-        </div>
+      <div>
+        <h2 class="about-BMI">What is BMI?</h2>
+        <p class="BMI-description">
+          Body mass index (BMI) is a health metric used to gauge a person's
+          weight category quickly, as it is a simple calculation of body fat
+          relative to weight and height. While BMI has its limitations - and
+          should not be the only metric considered when determining your weight
+          class - it is a fast and accessible tool that can help you better
+          understand whether you carry excess body fat, which can put you at
+          risk for health complications ranging from type 2 diabetes to high
+          blood pressure.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <!--BMI Calculator-->
+    <section class="calculator-container">
+        
+        <form id="bmi-form" onsubmit="return calcBMI();">
+            <h2>BMI Calculator</h2>
+            <div class="bmi-label">Measurement System:</div>
+            <div class="bmi-row">
+                <label>
+                    <input type="radio" id="bmi-metric" name="bmi-measure" onchange="measureBMI()" checked> Metric
+                </label>
+                <label>
+                    <input type="radio" id="bmi-imperial" name="bmi-measure" onchange="measureBMI()"> Imperial
+                </label>
+            </div>
+        
+            <div class="bmi-label">
+                Weight (<span id="bmi-weight-unit">Kg</span>):
+            </div>
+            <div class="bmi-row">
+                <input id="bmi-weight" type="number" min="1" max="635" required>
+            </div>
+        
+            <div class="bmi-label">Height (<span id="bmi-height-unit">Cm</span>):</div>
+            <div class="bmi-row">
+                <input id="bmi-height" type="number" min="54" max="272" required>
+            </div>
+        
+            <input type="submit" value="Calculate BMI">
+            <span id="bmi-results"></span>
+        </form>
+
     </section>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>

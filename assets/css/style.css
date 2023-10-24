@@ -1,6 +1,7 @@
 /* body */
 body {
     background-image: url("assets/images/background.webp");
+    font-family: Helvetica, sans-serif;
 }
 
 /* header */
@@ -24,11 +25,6 @@ body {
     display: inline-block;
 }
 
-.scale-logo img {
-    width: 45px;
-    height: 45px;
-    position: relative;
-}
 /* What is the BMI section */
 
 .container {
@@ -50,4 +46,49 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 30px;
+}
+
+/* BMI Calculator */
+.calculator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin:auto;
+
+}
+
+#bmi-form input[type=text],
+#bmi-form input[type=number] {
+    border: 1px solid #cfcfcf;
+    padding: 5px;
+}
+
+#bmi-form input[type=number] {
+    width: 100%;
+}
+
+#bmi-form input[type=submit] {
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    background: #001a8c;
+    cursor: pointer;
+}
+
+#bmi-form {
+    border: 1px solid #eee;
+    background: #f2f2f2;
+    padding: 20px;
+    max-width: 400px;
+}
+
+#bmi-form .bmi-label {
+    color: #00a8c3;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#bmi-form .bmi-row {
+    margin-bottom: 20px;
 }
