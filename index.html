@@ -31,38 +31,51 @@
         </p>
       </div>
     </section>
-    <hr>
+    <hr />
     <!--BMI Calculator-->
     <section class="calculator-container">
-        
-        <form id="bmi-form" onsubmit="return calcBMI();">
-            <h2>BMI Calculator</h2>
-            <div class="bmi-label">Measurement System:</div>
-            <div class="bmi-row">
-                <label>
-                    <input type="radio" id="bmi-metric" name="bmi-measure" onchange="measureBMI()" checked> Metric
-                </label>
-                <label>
-                    <input type="radio" id="bmi-imperial" name="bmi-measure" onchange="measureBMI()"> Imperial
-                </label>
-            </div>
-        
-            <div class="bmi-label">
-                Weight (<span id="bmi-weight-unit">Kg</span>):
-            </div>
-            <div class="bmi-row">
-                <input id="bmi-weight" type="number" min="1" max="635" required>
-            </div>
-        
-            <div class="bmi-label">Height (<span id="bmi-height-unit">Cm</span>):</div>
-            <div class="bmi-row">
-                <input id="bmi-height" type="number" min="54" max="272" required>
-            </div>
-        
-            <input type="submit" value="Calculate BMI">
-            <span id="bmi-results"></span>
-        </form>
+      <form id="bmi-form" onsubmit="return calcBMI();">
+        <h2>BMI CALCULATOR</h2>
+        <div class="bmi-label">Measurement System:</div>
+        <div class="bmi-row">
+          <label>
+            <input
+              type="radio"
+              id="bmi-metric"
+              name="bmi-measure"
+              onchange="measureBMI()"
+              checked
+            />
+            Metric
+          </label>
+          <label>
+            <input
+              type="radio"
+              id="bmi-imperial"
+              name="bmi-measure"
+              onchange="measureBMI()"
+            />
+            Imperial
+          </label>
+        </div>
 
+        <div class="bmi-label">
+          Weight (<span id="bmi-weight-unit">Kg</span>):
+        </div>
+        <div class="bmi-row">
+          <input id="bmi-weight" type="number" min="1" max="635" required />
+        </div>
+
+        <div class="bmi-label">
+          Height (<span id="bmi-height-unit">Cm</span>):
+        </div>
+        <div class="bmi-row">
+          <input id="bmi-height" type="number" min="54" max="272" required />
+        </div>
+
+        <input type="submit" value="Calculate BMI" />
+        <span id="bmi-results"></span>
+      </form>
     </section>
 
     <script src="assets/js/script.js"></script>

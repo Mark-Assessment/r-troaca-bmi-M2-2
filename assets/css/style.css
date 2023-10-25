@@ -1,7 +1,9 @@
 /* body */
 body {
-    background-image: url("assets/images/background.webp");
+    background-image: url("/assets/images/abstract.webp");
     font-family: Helvetica, sans-serif;
+
+
 }
 
 /* header */
@@ -54,7 +56,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    margin:auto;
+    margin: auto;
 
 }
 
@@ -71,20 +73,31 @@ body {
 #bmi-form input[type=submit] {
     padding: 10px;
     border: 0;
+    border-radius: 10px;
+    color: #fff;
+    background: #00a8c3;
+    cursor: pointer;
+
+}
+
+#bmi-form input[type=submit]:hover {
     color: #fff;
     background: #001a8c;
-    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
 }
 
 #bmi-form {
-    border: 1px solid #eee;
-    background: #f2f2f2;
+    box-shadow: 5px 5px 5px rgb(66, 65, 65);
+    border-radius: 10px;
+    background: #b3b1b1;
     padding: 20px;
     max-width: 400px;
+    width: 70%;
 }
 
 #bmi-form .bmi-label {
-    color: #00a8c3;
+    color: #001a8c;
     font-weight: 700;
     margin: 10px 0;
 }
