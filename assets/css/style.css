@@ -57,7 +57,13 @@ body {
     justify-content: center;
     padding-top: 20px;
     margin: auto;
+    padding-bottom: 20px;
 
+}
+
+.bmi-header{
+    text-align: center;
+    font-size:x-large;
 }
 
 #bmi-form input[type=text],
@@ -94,6 +100,7 @@ body {
     padding: 20px;
     max-width: 400px;
     width: 70%;
+    margin-top: 50px;
 }
 
 #bmi-form .bmi-label {
@@ -104,4 +111,14 @@ body {
 
 #bmi-form .bmi-row {
     margin-bottom: 20px;
+}
+
+/* How to use BMI calculator*/
+.using-BMI {
+    font-size: 18px;
+    padding: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    position: relative;
 }

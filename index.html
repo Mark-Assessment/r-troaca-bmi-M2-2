@@ -33,49 +33,77 @@
     </section>
     <hr />
     <!--BMI Calculator-->
-    <section class="calculator-container">
-      <form id="bmi-form" onsubmit="return calcBMI();">
-        <h2>BMI CALCULATOR</h2>
-        <div class="bmi-label">Measurement System:</div>
-        <div class="bmi-row">
-          <label>
-            <input
-              type="radio"
-              id="bmi-metric"
-              name="bmi-measure"
-              onchange="measureBMI()"
-              checked
-            />
-            Metric
-          </label>
-          <label>
-            <input
-              type="radio"
-              id="bmi-imperial"
-              name="bmi-measure"
-              onchange="measureBMI()"
-            />
-            Imperial
-          </label>
-        </div>
+    <section>
+      <div class="calculator-container">
+        <form id="bmi-form" onsubmit="return calcBMI();">
+          <h2 class="bmi-header">BMI CALCULATOR</h2>
+          <div class="bmi-label">Measurement System:</div>
+          <div class="bmi-row">
+            <label>
+              <input
+                type="radio"
+                id="bmi-metric"
+                name="bmi-measure"
+                onchange="measureBMI()"
+                checked
+              />
+              Metric
+            </label>
+            <label>
+              <input
+                type="radio"
+                id="bmi-imperial"
+                name="bmi-measure"
+                onchange="measureBMI()"
+              />
+              Imperial
+            </label>
+          </div>
 
-        <div class="bmi-label">
-          Weight (<span id="bmi-weight-unit">Kg</span>):
-        </div>
-        <div class="bmi-row">
-          <input id="bmi-weight" type="number" min="1" max="635" required />
-        </div>
+          <div class="bmi-label">
+            Weight (<span id="bmi-weight-unit">Kg</span>):
+          </div>
+          <div class="bmi-row">
+            <input id="bmi-weight" type="number" min="1" max="635" required />
+          </div>
 
-        <div class="bmi-label">
-          Height (<span id="bmi-height-unit">Cm</span>):
-        </div>
-        <div class="bmi-row">
-          <input id="bmi-height" type="number" min="54" max="272" required />
-        </div>
+          <div class="bmi-label">
+            Height (<span id="bmi-height-unit">Cm</span>):
+          </div>
+          <div class="bmi-row">
+            <input id="bmi-height" type="number" min="54" max="272" required />
+          </div>
 
-        <input type="submit" value="Calculate BMI" />
-        <span id="bmi-results"></span>
-      </form>
+          <input type="submit" value="Calculate BMI" />
+          <span id="bmi-results"></span>
+        </form>
+      </div>
+
+      <div>
+        <h2 class="about-BMI">How to use the BMI calculator</h2>
+        <p>
+            <ul class="using-BMI">
+            <li>Using the metric system, the BMI calculation divides an adult's weight in kilograms (kg) by their height in metres (m) squared.<br>
+            <br>
+            For example, if you weigh 70kg and are 1.73m tall, you work out your BMI by:<br>
+            <br>
+            squaring your height: 1.73x1.73 = 2.99<br>
+            dividing 70 by 2.99 = 23.41<br>
+            <br>
+            Your result will be displayed to 1 decimal place, for example 23.4.
+            </li>
+            <br>
+            <li>BMI is calculated by dividing your weight in pounds by the square of your height in inches, and then multiplying by a
+            conversion factor of 703, according to the CDC. See the formula below for an example.<br>
+            <br>
+            Weight = 150 pounds<br>
+            Height = 5’5″ (65 inches)<br>
+            BMI calculation: [150 ÷ (65)2] x 703 = 24.96
+
+            </li>
+            </ul>
+        </p>
+      </div>
     </section>
 
     <script src="assets/js/script.js"></script>
