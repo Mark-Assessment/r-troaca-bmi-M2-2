@@ -46,6 +46,7 @@
                 name="bmi-measure"
                 onchange="measureBMI()"
                 checked
+                aria-label="Metric system"
               />
               Metric
             </label>
@@ -55,6 +56,7 @@
                 id="bmi-imperial"
                 name="bmi-measure"
                 onchange="measureBMI()"
+                aria-label="Imperial system"
               />
               Imperial
             </label>
@@ -64,17 +66,17 @@
             Weight (<span id="bmi-weight-unit">Kg</span>):
           </div>
           <div class="bmi-row">
-            <input id="bmi-weight" type="number" min="1" max="635" required />
+            <input id="bmi-weight" type="number" min="1" max="635" aria-label="Select weight" required />
           </div>
 
           <div class="bmi-label">
             Height (<span id="bmi-height-unit">Cm</span>):
           </div>
           <div class="bmi-row">
-            <input id="bmi-height" type="number" min="54" max="272" required />
+            <input id="bmi-height" type="number" min="54" max="272" aria-label="Select height" required />
           </div>
 
-          <input type="submit" value="Calculate BMI" />
+          <input type="submit" value="Calculate BMI" aria-label="Calculate BMI button" />
           <span id="bmi-results"></span>
         </form>
       </div>
@@ -87,22 +89,50 @@
             <br>
             For example, if you weigh 70kg and are 1.73m tall, you work out your BMI by:<br>
             <br>
-            squaring your height: 1.73x1.73 = 2.99<br>
-            dividing 70 by 2.99 = 23.41<br>
+            Squaring your height: 1.73x1.73 = 2.99<br>
+            Dividing 70 by 2.99 = 23.41<br>
             <br>
             Your result will be displayed to 1 decimal place, for example 23.4.
             </li>
             <br>
             <li>BMI is calculated by dividing your weight in pounds by the square of your height in inches, and then multiplying by a
-            conversion factor of 703, according to the CDC. See the formula below for an example.<br>
+            conversion factor of 703. See the formula below for an example:<br>
             <br>
             Weight = 150 pounds<br>
             Height = 5’5″ (65 inches)<br>
-            BMI calculation: [150 ÷ (65)2] x 703 = 24.96
+            BMI calculation: [150 ÷ (65)^2] x 703 = 24.96
 
             </li>
             </ul>
         </p>
+      </div>
+      <hr>
+      <div>
+        <h2 class="about-BMI">BMI chart for adults</h2>
+        <figure class="fig-chart">
+            <img src="/assets/images/chart.webp" alt="BMI chart" />
+        </figure>
+        <div class="using-BMI">
+            <p>
+                A BMI calculation in the healthy weight range is between 18.5 to 24.9.<br>
+                <br>
+                For Black, Asian and some other minority ethnic groups, the healthy weight range is 18.5 to 23.<br>
+                <br>
+                For people of White heritage, a BMI:
+                <ul>
+                    <li>below 18.5 is underweight</li>
+                    <li>between 18.5 and 24.9 is healthy</li>
+                    <li>between 25 and 29.9 is overweight</li>
+                    <li>of 30 or over is obese</li>
+                </ul>
+                Black, Asian and some other minority ethnic groups have a higher risk of developing some long-term conditions such as
+                type 2 diabetes with a lower BMI. People from these groups with a BMI of:
+                <ul>
+                    <li>23 or more are at increased risk (overweight)</li>
+                <li>27.5 or more are at high risk (obese)</li>
+            </ul>
+        </div>
+
       </div>
     </section>
 

@@ -1,4 +1,8 @@
 /* body */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("/assets/images/abstract.webp");
     font-family: Helvetica, sans-serif;
@@ -121,4 +125,19 @@ body {
     margin-top: 20px;
     text-align: justify;
     position: relative;
+}
+
+/* BMI chart */
+.fig-chart {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+img {
+    max-width: 1500px;
+    max-height: 1140x;
 }
