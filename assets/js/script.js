@@ -57,3 +57,16 @@ function calcBMI() {
     }
     return false;
 }
+
+//Accordion toggle function
+let items = document.querySelectorAll('.accordion button');
+function toggleAccordion() {
+    let itemToggle = this.getAttribute('aria-expanded');
+    for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+    }
+    if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+    }
+}
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
