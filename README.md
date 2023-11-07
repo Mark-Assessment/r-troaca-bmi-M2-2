@@ -119,17 +119,26 @@ The footer includes a copyright notice at the bottom and has the same gradient b
 
 ### **Home Page Content:**
 
-* This page contains an About Us section right after the hero image carousel, that gives a brief description about the comedy club, its history and what can you expect to find when you visit The Giggly Fox.
+- This page contains a "What is BMI?" section right after the header, that gives a brief description about the Body Mass Index.
   
-![About us section](https://github.com/RazvanTr10/the-giggly-fox/blob/main/assets/images/screenshots/aboutus.jpg?raw=true)
+![What is BMI section](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/what-is-bmi.png?raw=true)
 
-- The home page also contains an Upcoming Shows section, which shows the next 6 upcoming shows at the comedy club, including their date. Underneath these shows there is a button that redirects users to the Shows page, where they can see more information about these upcoming shows. On mobile phones, this section only shows the next 3 shows, as to decrease loading times and scrolling endlessly.
+- The home page also contains the BMI calculator right after the What is BMI section. It gives the user the option to switch between measuring units, either Metric or Imperial. The calculator has 2 input fields, one for weight(either in kg or lbs) and one for height(cm or inches). Next to the "Calculate BMI" button, the result of the user's input will appear.
   
-![Upcoming shows section](https://github.com/RazvanTr10/the-giggly-fox/blob/main/assets/images/screenshots/upcomingshows.jpg?raw=true)
+![BMI calculator](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/bmi-calculator.png?raw=true)
 
-- A third section that is individual to the home page, is the comedians sections, which shows 8 comedians that perform at the comedy club. Underneath these comedians images there is a button that redirects the user to the Comedians page, where they can see more information about these comedians. On mobile phone, the section only shows 4 comedians, as to load the page faster.
+- Right after the BMI calculator, there is a "How to use" section, which provides information to the user on how to use the BMI calculator and how the results are being calculated.
+
+![How to use section](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/how-to-use.png?raw=true)
+
+- A fourth section that is individual to the home page is the BMI chart, which shows in detail all the results that a user can get after using the BMI calculator. There is also a short description of what these ranges are.
   
-![Comedians section](https://github.com/RazvanTr10/the-giggly-fox/blob/main/assets/images/screenshots/comedianshomepage.jpg?raw=true)
+![BMI chart](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/chart.webp?raw=true)
+![BMI ranges](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/bmi-ranges.png?raw=true)
+
+- The last section of the home page is the FAQ section, which provides extra information to a few common questions that users might have. These questions have a toggleable effect, that expands to show the answer for each individual question.
+
+![FAQ section](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/faq.png?raw=true)
 
 ### **404 Error Page Content**
 
@@ -137,12 +146,12 @@ The footer includes a copyright notice at the bottom and has the same gradient b
 - The page displays a funny message to inform the user that the page that they were looking for is unavailable.
 - Under the message displayed, there is a button that sends the user back to the Home page.
 
-![404 Erorr page message](https://github.com/RazvanTr10/the-giggly-fox/blob/main/assets/images/screenshots/404page.jpg?raw=true)
+![404 Error page message]()
 
 ## **Future-Enhancements**
 
-* Provided I would have had sufficient time, I would have added a few extra features to enhance the website's functionality. One of these would be a dedicated page to each comedian, allowing the comedian to share their latest videos and which shows are they doing down the road.
-- I would also like to add a search bar at the top of the website, so the user can find specific information that they are looking for. These enhancements would make the website more user-friendly and accesible.
+* Provided I would have had sufficient time, I would have added a few extra features to enhance the website's functionality. One of these would be a dedicated section that links the user to extra resources such as fitness plans and research papers.
+- I would also like to add a login feature, so the user can save their results and see if they improved in time. These enhancements would make the website more user-friendly and accesible, as well as enticing the user to come back more often.
 
 ***
 
@@ -174,29 +183,28 @@ During the development process, I have been constantly testing the website in th
 During my manual testing, I have tested every user story, to ensure that the needs of the users are met.
 
 - As a user I want to see the subject matter of the page.
-  - Issue: the About Us section didn't stand out, as to allow the user to notice it straight away.
-  - Cause: the background of the About Us section was slightly darker than the body background.
-  - Resolution: I added a 4px solid orange border, which captures the attention of the user and they can see the subject of the website in an instant.
+  - Issue: there was no description of what BMI is.
+  - Resolution: I added a brief but comprehensive description of what the Body Mass Index represents.
 
 - As a user I want to be able to easily navigate the page to find what I require in a quickly manner.
-  - Issue: the user had to scroll for a long time up and down to find which section they were interested in.
-  - Cause: the navbar was not fixed and there was no back to top button either.
-  - Resolution: I added a back to top button to all 4 main pages, and I made the navbar fixed as well, so that the user can easily navigate the website.
+  - Issue: the user had to scroll for a long time up and down to find what they were interested in.
+  - Cause: the calculator was not placed at the top of the page.
+  - Resolution: I moved the calculator at the beginning of the page, so the user can quickly access it.
 
-- As a user I want to find the dates and times of show that I am interested in, without too much trouble.
-  - Issue: the user could not find quickly all the times of the shows, from the landing page.
-  - Cause: there was a list of shows on the Home page, but no button to take you to the Shows page instantly, without having to scroll all the way up to the top.
-  - Resolution: I added a "View all shows" button that redirects the user straight to the Shows page.
+- As a health-conscious individual, I want the BMI calculator to provide me with a clear breakdown of what different BMI ranges mean in terms of health and potential risks, helping me understand the implications of my result.
+  - Issue: the user could not find a description of what the BMI ranges are.
+  - Cause: there was a BMI colour coded chart, but no clear breakdown of the ranges.
+  - Resolution: I added a short description of the BMI ranges underneath the chart and also added in the FAQ section 2 questions and their respective answers that target the potential health risks of some of the BMI ranges.
 
-- As a user I want to be able to find what comedians are performing at this venue.
-  - Issue: the user could not find quickly all the comedians performing at the comedy club, from the Home page.
-  - Cause: there was a section of Comedians on the landing page, but there wasn't any button to take you to the Comedians page instantly, without having to scroll all the way up to the top.
-  - Resolution: I added a "View all comedians" button that takes the user instantly to the Comedians page.
+- As a fitness enthusiast, I want the BMI calculator to allow me to input both metric and imperial measurements, giving me the flexibility to use the unit system I'm most comfortable with.
+  - Issue: the user could not select their prefered measuring unit system.
+  - Cause: there was only the option for the Metric system.
+  - Resolution: I added the Imperial measuring system to the calculator, because some countries do not use the Metric system.
   
-- As a user I want to be able to contact the club easily.
-  - Issue: the user could not contact the venue easily, without having to call the club.
-  - Cause: there was an email address provided, but no contact form to make it easier for the user to contact The Giggly Fox.
-  - Resolution: I added a contact form where the user can input their first and last name, email address, phone number and a text area where they can send all their questions and feedback to the club.
+- As a mobile user, I want the website to be responsive and the BMI calculator to be easily accessible and functional on my smartphone or tablet, ensuring a seamless experience regardless of the device I'm using.
+  - Issue: the user could not see the calculator on smaller devices, in its entirety
+  - Cause: the calculator was not responsive.
+  - Resolution: I modified some of the CSS rules, as to ensure that it is responsive on all devices.
 
 #### **Functionality testing**
 
