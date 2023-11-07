@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>BMI-zing</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
   </head>
@@ -32,7 +32,7 @@
         </p>
       </div>
     </section>
-    <hr />
+    <hr>
     <!--BMI Calculator-->
     <section>
       <div class="calculator-container">
@@ -48,7 +48,7 @@
                 onchange="measureBMI()"
                 checked
                 aria-label="Metric system"
-              />
+              >
               Metric
             </label>
             <label>
@@ -58,7 +58,7 @@
                 name="bmi-measure"
                 onchange="measureBMI()"
                 aria-label="Imperial system"
-              />
+              >
               Imperial
             </label>
           </div>
@@ -67,24 +67,24 @@
             Weight (<span id="bmi-weight-unit">Kg</span>):
           </div>
           <div class="bmi-row">
-            <input id="bmi-weight" type="number" min="1" max="300" aria-label="Select weight" required />
+            <input id="bmi-weight" type="number" min="1" max="300" aria-label="Select weight" required>
           </div>
 
           <div class="bmi-label">
             Height (<span id="bmi-height-unit">Cm</span>):
           </div>
           <div class="bmi-row">
-            <input id="bmi-height" type="number" min="50" max="300" aria-label="Select height" required />
+            <input id="bmi-height" type="number" min="50" max="300" aria-label="Select height" required>
           </div>
 
-          <input type="submit" value="Calculate BMI" aria-label="Calculate BMI button" />
+          <input type="submit" value="Calculate BMI" aria-label="Calculate BMI button">
           <span id="bmi-results"></span>
         </form>
       </div>
 
       <div>
         <h2 class="about-BMI">How to use the BMI calculator</h2>
-        <p>
+        <div>
             <ul class="using-BMI">
             <li>Using the metric system, the BMI calculation divides an adult's weight in kilograms (kg) by their height in metres (m) squared.<br>
             <br>
@@ -95,7 +95,6 @@
             <br>
             Your result will be displayed to 1 decimal place, for example 23.4.
             </li>
-            <br>
             <li>BMI is calculated by dividing your weight in pounds by the square of your height in inches, and then multiplying by a
             conversion factor of 703. See the formula below for an example:<br>
             <br>
@@ -105,16 +104,15 @@
 
             </li>
             </ul>
-        </p>
+        </div>
       </div>
       <hr>
       <div>
         <h2 class="about-BMI">BMI chart for adults</h2>
         <figure class="fig-chart">
-            <img src="assets/images/chart.webp" alt="BMI chart" />
+            <img src="assets/images/chart.webp" alt="BMI chart">
         </figure>
         <div class="using-BMI">
-            <p>
                 A BMI calculation in the healthy weight range is between 18.5 to 24.9.<br>
                 <br>
                 For Black, Asian and some other minority ethnic groups, the healthy weight range is 18.5 to 23.<br>
@@ -173,7 +171,6 @@
                             <span class="icon" aria-hidden="true"></span>
                         </button>
                         <div class="accordion-content">
-                            <p>
                                 Your BMI, or Body Mass Index, is a measure of your weight compared to your height. Accurate assessments of obesity are
                                 important, as being overweight or obese significantly increases your risk of a variety of medical conditions including
                                 type 2 diabetes, heart disease and cancer. As levels of overweight or obesity increase, the spotlight has fallen on BMI
@@ -204,7 +201,6 @@
                                     <li><strong>Older people (over 65, possibly over 60)</strong> - Because muscle mass tends to drop and body fat tends to rise in older people, BMI may not be an accurate reflector of
                                     body fat if you're over 60.</li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     <div class="accordion-item">
