@@ -4,7 +4,7 @@
 
 Welcome to my user-friendly BMI Calculator website! This platform offers a simple and efficient tool for calculating your Body Mass Index. By inputting your height and weight, the calculator swiftly processes the information and provides your BMI value, indicating whether you fall within the underweight, normal, overweight, obese or extremely obese category. Understanding your BMI is crucial for assessing your overall health and fitness. The website not only computes your BMI but also offers additional information on what the BMI ranges signify and general tips for maintaining a healthy lifestyle. Whether you're curious about your current BMI or aiming to track your fitness progress, BMI-zing is the go-to resource for a quick and accurate BMI assessment.
 
-![Website responsiveness]()
+![Website responsiveness](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/amiresponsive.png?raw=true)
 
 ## Table of contents
 
@@ -91,30 +91,29 @@ Welcome to my user-friendly BMI Calculator website! This platform offers a simpl
 ### **Color Scheme:**
 
 When deciding the color scheme I wanted a light main body with accents of blue for a great aesthetic and black font text for a good contrast. The color palette was created using [https://coolors.co/]
-![Color Palette](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/screenshots/colour-palette.png?raw=true)
+![Color Palette](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/colour-palette.png?raw=true)
+
 
 I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=%23FFFFFF%2C%0D%0A%23b3b1b1%2C%0D%0A%2300ccff%2C%0D%0A%23001a8c%0D%0A%0D%0A&foreground-colors=%23FFFFFF%2C%0D%0A%23b3b1b1%2C%0D%0A%2300ccff%2C%0D%0A%23001a8c%0D%0A%0D%0A&es-color-form__tile-size=large&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
 
-![Color Contrast Grid](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/screenshots/colourgrid.png?raw=true)
+![Color Contrast Grid](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/colourgrid.png?raw=true)
 
 ### **Typography:**
 
 I decided on using a Google font, called DM-Sans, for its clean and sharp look.
-![Typography](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/screenshots/typography.png?raw=true)
+![Typography](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/typography.png?raw=true)
 
 ## **Current Features Common to all pages**
 
 ### **Header Element**
 
-The header element sticks to the top of the page as the user scrolls up and down the website. Originally I had designed the page with a "return to top" link at the bottom of the page. 
+The header element includes the title of the website and has a gradient background that is in perfect contrast to the white text.
+![Header](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/header.png?raw=true)
 
 ## **Footer**
 
-* The footer is present across every page of the website, featuring social media icons that link directly to the corresponding social media websites. This will allow users to stay up to date with the comedy club's latest updates and events on various social media platforms.
-- The icons used for the social media buttons are imported by linking a CDN from [https://fontawesome.com]
-- Footer also includes copyright notice at the bottom.
-- The footer was inspired from [https://mdbootstrap.com/docs/standard/extended/social-media-icons-footer/#section-related-resources] and modified the code to adapt it to this website.
-![Page footer]
+The footer includes a copyright notice at the bottom and has the same gradient background as the header, but the gradient is reversed.
+![Footer](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/footer.png?raw=true)
 
 ## **Page Content features**
 
