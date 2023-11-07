@@ -2,9 +2,7 @@
 
 ## **Site Overview**
 
-The Giggly Fox is Leicester's premier destination for laughter and a good time! Situated in the heart of the city, our venue is the go-to spot for an unforgettable evening of side-splitting comedy and good times.
-
-Established with a passion for spreading joy and merriment, The Giggly Fox has been a staple in Leicester's entertainment scene for over a decade. We take pride in curating an eclectic lineup of comedic talent, bringing together the finest stand-up comedians, improv artists, and sketch groups from near and far. Whether you're a local resident or a visitor to our vibrant city, our doors are wide open, ready to welcome you into a world of unbridled laughter.
+Welcome to my user-friendly BMI Calculator website! This platform offers a simple and efficient tool for calculating your Body Mass Index. By inputting your height and weight, the calculator swiftly processes the information and provides your BMI value, indicating whether you fall within the underweight, normal, overweight, obese or extremely obese category. Understanding your BMI is crucial for assessing your overall health and fitness. The website not only computes your BMI but also offers additional information on what the BMI ranges signify and general tips for maintaining a healthy lifestyle. Whether you're curious about your current BMI or aiming to track your fitness progress, BMI-zing is the go-to resource for a quick and accurate BMI assessment.
 
 ![Website responsiveness]()
 
@@ -20,6 +18,7 @@ Established with a passion for spreading joy and merriment, The Giggly Fox has b
     - [**How Will This Be Achieved:**](#how-will-this-be-achieved)
     - [**Wireframes:**](#wireframes)
     - [**Color Scheme:**](#color-scheme)
+    - [**Typography:**](#typography)
   - [**Current Features Common to all pages**](#current-features-common-to-all-pages)
     - [**Header Element**](#header-element)
   - [**Footer**](#footer)
@@ -48,35 +47,33 @@ Established with a passion for spreading joy and merriment, The Giggly Fox has b
 
 ### **Target Audiences:**
 
-- Users looking to see a comedy show.
-- Users who want to see what comedians are performing at The Giggly Fox.
-- Users that want to get in contact with the comedy club and make a booking.
+- Users looking to calculate their BMI.
+- Users who want to see what different BMI ranges are there and potential health problems that may occur.
+- Users that want to be able to easily access the website from their mobile device as well as their other devices.
 
 ### **User Stories:**
 
 - As a user I want to see the subject matter of the page.
-- As a user I want to be able to easily navigate the page to find what I require in a quickly manner.
-- As a user I want to find the dates and times of show that I am interested in, without too much trouble.
-- As a user I want to be able to find what comedians are performing at this venue.
-- As a user I want to be able to contact the club easily.
+- As a new user, I want to easily find the BMI calculator on the website's homepage so that I can quickly determine my BMI without navigating through multiple pages.
+- As a health-conscious individual, I want the BMI calculator to provide me with a clear breakdown of what different BMI ranges mean in terms of health and potential risks, helping me understand the implications of my result.
+- As a fitness enthusiast, I want the BMI calculator to allow me to input both metric and imperial measurements, giving me the flexibility to use the unit system I'm most comfortable with.
+- As a mobile user, I want the website to be responsive and the BMI calculator to be easily accessible and functional on my smartphone or tablet, ensuring a seamless experience regardless of the device I'm using.
 
 ### **Site Aims:**
 
 - To inform the user what the website is about.
 - To insure the user that the website is fluid and can be navigated at ease every step of their experience.
-- To inform the user on the show dates and entrance times.
-- To inform the user on the comedians that perform at The Giggly Fox and provide extra details about them.
-- To provide a manner of contacting the venue.
-- To provide the ability to subscribe to a newsletter that will inform the user on any shows added to our show list and their respective lineups.
+- To allow the user to easily access the calculator and offer the possibility to switch between unit systems.
+- To inform the user on how to use the BMI calculator.
+- To inform the user on what different BMI ranges mean and understand the implications of their result.
 
 ### **How Will This Be Achieved:**
 
-- The landing page of the website provides the user a description of the comedy club and how it became one of the top comedy clubs in the country.
-- The site provides clear information on the club's
-  - Upcoming shows
-  - Comedians
-- The site provides a method of contacting the club and offers as well as the address of the club and the phone number where the club can be contacted, in the Contact section of the website.
-- The site provides the user a method of subscribing to a newsletter, that will be sent twice a month and inform the user with the new shows that have been added and their dates and entrance times, as well as the comedians that will perform on the day of the show.
+- The landing page of the website provides the user a description of what the BMI represents.
+- The site shows the calculator close to the top of the page, to allow the users to quickly be able to calculate their BMI.
+- The site provides information on how to use the BMI calculator.
+- The site provides the user an easy to read chart of different BMI ranges, as well as additional information about each result.
+- The users are able to find at the bottom of the page, additional answers to some frequently asked questions.
 
 ### **Wireframes:**
 
@@ -93,18 +90,23 @@ Established with a passion for spreading joy and merriment, The Giggly Fox has b
 
 ### **Color Scheme:**
 
-When deciding the color scheme I wanted a dark and gritty main body with accents of orange representing the colour of the fox and white font text for a good contrast. The color palette was created using [https://coolors.co/]
-![Color Palette](https://github.com/RazvanTr10/the-giggly-fox/blob/main/assets/images/screenshots/colorpalette.jpg?raw=true)
+When deciding the color scheme I wanted a light main body with accents of blue for a great aesthetic and black font text for a good contrast. The color palette was created using [https://coolors.co/]
+![Color Palette](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/screenshots/colour-palette.png?raw=true)
 
-I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%231A1E21%2C%0D%0A%23212529%2C%0D%0A%23343439%2C%0D%0A%23FFFFFF%2C%0D%0A%23ff5500%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
+I also created this color contrast grid using [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=%23FFFFFF%2C%0D%0A%23b3b1b1%2C%0D%0A%2300ccff%2C%0D%0A%23001a8c%0D%0A%0D%0A&foreground-colors=%23FFFFFF%2C%0D%0A%23b3b1b1%2C%0D%0A%2300ccff%2C%0D%0A%23001a8c%0D%0A%0D%0A&es-color-form__tile-size=large&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp), to check the contrast scored and ensure the text remains visible across the entire website and that the site is accessible to everyone.
 
-![Color Contrast Grid](https://github.com/RazvanTr10/the-giggly-fox/blob/main/assets/images/screenshots/colourgrid.jpg?raw=true)
+![Color Contrast Grid](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/screenshots/colourgrid.png?raw=true)
+
+### **Typography:**
+
+I decided on using a Google font, called DM-Sans, for its clean and sharp look.
+![Typography](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/screenshots/typography.png?raw=true)
 
 ## **Current Features Common to all pages**
 
 ### **Header Element**
 
-The header element sticks to the top of the page as the user scrolls up and down the website. Originally I had designed the page with a "return to top" link at the bottom of the page. The navbar contains the following features:
+The header element sticks to the top of the page as the user scrolls up and down the website. Originally I had designed the page with a "return to top" link at the bottom of the page. 
 
 ## **Footer**
 
