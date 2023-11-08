@@ -209,6 +209,44 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 #### **Functionality testing**
 
+- Tested on Xiaomi MI 11 Ultra
+
+| Home page |Result|Comments|
+|-------|-------|-------|
+|Website loads fully|Pass|No delay encountered|
+|Layout appearance is correct (visibility of text, all images load, no overlaps)|Pass|N/A|
+|Clicking the header returns to home page|Pass|N/A|
+|Input fields work correctly, validate and accept data|Pass|N/A|
+|Calculate button returns a result|Pass|N/A|
+|FAQ accordion hover effect is visible|Pass|N/A|
+|FAQ accordion expands fully|Pass|N/A|
+|Clicking the footer returns to home page|Pass|N/A|
+
+| 404 page |Result|Comments|
+|-------|-------|-------|
+|Layout appearance is correct (visibility of text, layout, no overlaps)|Pass|N/A|
+|Button in 404 message returns the user to the Home Page|Pass|N/A|
+|Clicking the header and footer brings the user back to Home Page|Pass|N/A|
+
+- Tested on desktop
+
+| Home page |Result|Comments|
+|-------|-------|-------|
+|Website loads fully|Pass|No delay encountered|
+|Layout appearance is correct (visibility of text, all images load, no overlaps)|Pass|N/A|
+|Clicking the header returns to home page|Pass|N/A|
+|Input fields work correctly, validate and accept data|Pass|N/A|
+|Calculate button returns a result|Pass|N/A|
+|FAQ accordion hover effect is visible|Pass|N/A|
+|FAQ accordion expands fully|Pass|N/A|
+|Clicking the footer returns to home page|Pass|N/A|
+
+| 404 page |Result|Comments|
+|-------|-------|-------|
+|Layout appearance is correct (visibility of text, layout, no overlaps)|Pass|N/A|
+|Button in 404 message returns the user to the Home Page|Pass|N/A|
+|Clicking the header and footer brings the user back to Home Page|Pass|N/A|
+
 * All the links, buttons and forms work as expected, with no errors.
   
 #### **Bugs and fixes**
@@ -243,8 +281,6 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 - All lighthouse tests have been made while in incognito mode to avoid any browser extensions interference.
 - I have asked several people to run lighthouse tests from their own devices as well, and they were getting similar scores.
-
-- Index.html
 
 ![Index.html lighthouse score](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/lighthouse-results.png?raw=true)
 ***
