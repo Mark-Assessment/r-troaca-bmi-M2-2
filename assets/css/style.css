@@ -8,8 +8,6 @@ html {
 body {
     background-image: url('../images/abstract.webp');
     font-family: 'DM Sans', sans-serif;
-
-
 }
 
 /* header */
@@ -266,7 +264,7 @@ footer {
     height: 75px;
     width: 100%;
     background-image: linear-gradient(270deg, #00ccff, #001a8c);
-    margin: auto;
+    margin: 0 auto;
     font-weight: 700;
     text-align: center;
 }
@@ -337,5 +335,5 @@ footer {
 @media screen and (max-width: 340px) {
     .header-title {
         font-size: 24px;
-}
+    }
 }
