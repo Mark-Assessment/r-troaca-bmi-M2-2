@@ -36,6 +36,7 @@ Welcome to my user-friendly BMI Calculator website! This platform offers a simpl
       - [**Validators**](#validators)
       - [***HTML*** - https://validator.w3.org/nu/](#html---httpsvalidatorw3orgnu)
       - [***CSS*** - https://jigsaw.w3.org/css-validator/](#css---httpsjigsaww3orgcss-validator)
+      - [***JSHint*** - https://jshint.com/](#jshint---httpsjshintcom)
       - [**Lighthouse Scores**](#lighthouse-scores)
   - [**Deployment**](#deployment)
   - [**Credits**](#credits)
@@ -212,6 +213,15 @@ During my manual testing, I have tested every user story, to ensure that the nee
   
 #### **Bugs and fixes**
 
+- An early error that I encountered was that the background image was not showing. To fix it I just had to change the pathway in the style.css file to the correct one.
+  <summary>
+  ![Background error](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/error-background.png?raw=true)
+  </summary>
+
+- Another bug that I found was while I was expanding the FAQ accordion, where one of the answers would not be fully visible. Managed to resolve this issue by increasing the max-height of the answers so that they would fully show up.
+  <summary>
+  ![Accordion error](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/accordion-error.png?raw=true)
+  </summary>
 ***
 
 ### **Testing After Development**
@@ -226,6 +236,10 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 - All pages tested, no issues found.
 ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
+
+#### ***JSHint*** - <https://jshint.com/>
+
+![JSHint results]() 
 
 #### **Lighthouse Scores**
 
@@ -263,4 +277,8 @@ You  can find the live site via the following URL - [BMI-zing live webpage](http
 
 ### **Content:**
 
-- The text content was either created by me or generated using an AI tool[https://openai.com/chatgpt]
+- The background of the website was taken from [www.freepik.com](https://www.freepik.com/free-vector/paper-style-white-monochrome-background_15518074.htm#query=background&position=4&from_view=keyword&track=sph).
+- The BMI chart picture was taken from [https://patient.info/doctor/bmi-calculator].
+- The text content was taken from [https://www.forbes.com/health/body/bmi-calculator/]
+- The accordion for the FAQ section was inspired from [https://www.w3schools.com/howto/howto_js_accordion.asp] and [https://futurecodersweb.com/faq-accordion-section-using-html-css-and-javascript/].
+- The script for the BMI calculator was inspired and adapted to fit this website, from [https://codepen.io/code-boxx/pen/oNMZeLx].
