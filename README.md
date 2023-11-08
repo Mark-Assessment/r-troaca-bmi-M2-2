@@ -146,7 +146,7 @@ The footer includes a copyright notice at the bottom and has the same gradient b
 - The page displays a funny message to inform the user that the page that they were looking for is unavailable.
 - Under the message displayed, there is a button that sends the user back to the Home page.
 
-![404 Error page message]()
+![404 Error page message](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/errorpage.png?raw=true)
 
 ## **Future-Enhancements**
 

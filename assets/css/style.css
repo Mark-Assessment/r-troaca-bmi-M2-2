@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: url('/assets/images/abstract.webp');
+    background-image: url('../images/abstract.webp');
     font-family: 'DM Sans', sans-serif;
 
 
@@ -311,14 +311,14 @@ footer {
 }
 
 .error-page a {
-    font: 25px;
+    font: 35px;
     text-align: center;
     color: #ffffff;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
-    width: 150px;
+    width: 250px;
     background: #00ccff;
     border-radius: 5px;
     margin: 50px auto 0px;
