@@ -80,12 +80,12 @@ Welcome to my user-friendly BMI Calculator website! This platform offers a simpl
 - Mobile Wireframes:
   - Home page
 
-![Home page]()
+![Home page](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/mobile-wireframe.jpg?raw=true)
 
 - Desktop wireframes:
   - Home page
 
-![Home page]()
+![Home page](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/desktop-wireframe.jpg?raw=true)
 
 
 ### **Color Scheme:**

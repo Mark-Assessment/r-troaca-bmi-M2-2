@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: url('../images/abstract.webp');
+    background-image: url('/assets/images/abstract.webp');
     font-family: 'DM Sans', sans-serif;
 
 
@@ -147,7 +147,7 @@ body {
 
 img {
     max-width: 1500px;
-    max-height: 1140x;
+    max-height: 1140px;
 }
 
 /* FAQ Section */
@@ -274,7 +274,7 @@ footer {
 .footer-text {
     max-height: 75px;
     padding: 20px 0 0 5px;
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     line-height: 1;
     letter-spacing: normal;
@@ -284,8 +284,55 @@ footer {
 
 .footer-text a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
+
+/* 404 page */
+
+.error-page {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px 0px 50px;
+}
+
+.error-page h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 10px 10px;
+}
+
+.error-page p {
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 15px 15px;
+}
+
+.error-page a {
+    font: 25px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 150px;
+    background: #00ccff;
+    border-radius: 5px;
+    margin: 50px auto 0px;
+    padding: 20px 20px 20px;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+}
+
+.thankyoupage a:hover {
+    background-color: #001a8c;
+
+}
+
+/*media query*/
 
 @media screen and (max-width: 340px) {
     .header-title {
