@@ -214,14 +214,12 @@ During my manual testing, I have tested every user story, to ensure that the nee
 #### **Bugs and fixes**
 
 - An early error that I encountered was that the background image was not showing. To fix it I just had to change the pathway in the style.css file to the correct one.
-  <summary>
-  ![Background error](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/error-background.png?raw=true)
-  </summary>
+![Background error](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/error-background.png?raw=true)
+
 
 - Another bug that I found was while I was expanding the FAQ accordion, where one of the answers would not be fully visible. Managed to resolve this issue by increasing the max-height of the answers so that they would fully show up.
-  <summary>
   ![Accordion error](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/accordion-error.png?raw=true)
-  </summary>
+  
 ***
 
 ### **Testing After Development**
@@ -239,7 +237,7 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 #### ***JSHint*** - <https://jshint.com/>
 
-![JSHint results]() 
+![JSHint results](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/jshint-results.png?raw=true)
 
 #### **Lighthouse Scores**
 
@@ -248,7 +246,7 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 - Index.html
 
-![Index.html lighthouse score]()
+![Index.html lighthouse score](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/lighthouse-results.png?raw=true)
 ***
 
 ## **Deployment**
