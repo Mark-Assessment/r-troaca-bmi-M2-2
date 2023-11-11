@@ -4,7 +4,7 @@
 
 Welcome to my user-friendly BMI Calculator website! This platform offers a simple and efficient tool for calculating your Body Mass Index. By inputting your height and weight, the calculator swiftly processes the information and provides your BMI value, indicating whether you fall within the underweight, normal, overweight, obese or extremely obese category. Understanding your BMI is crucial for assessing your overall health and fitness. The website not only computes your BMI but also offers additional information on what the BMI ranges signify and general tips for maintaining a healthy lifestyle. Whether you're curious about your current BMI or aiming to track your fitness progress, BMI-zing is the go-to resource for a quick and accurate BMI assessment.
 
-![Website responsiveness](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/amiresponsive.png?raw=true)
+![Website responsiveness](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/responsiveness.png?raw=true)
 
 ## Table of contents
 

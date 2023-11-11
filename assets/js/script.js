@@ -1,7 +1,7 @@
 // Choose BMI Measuring System
 function measureBMI() {
-    // Get HTML Elements
-    let unit = document.getElementById("bmi-metric").checked,
+    
+    const unit = document.getElementById("bmi-metric").checked,
         weight = document.getElementById("bmi-weight"),
         weightu = document.getElementById("bmi-weight-unit"),
         height = document.getElementById("bmi-height"),
@@ -21,9 +21,10 @@ function measureBMI() {
     }
 }
 
-// Calculate BMI
+/** 
+ * Calculates the BMI based off user input
+ * @returns {boolean} - If BMI calc fails returns false */ 
 function calcBMI() {
-    // Get HTML Elements
     let bmi = null,
         unit = document.getElementById("bmi-metric").checked,
         weight = parseInt(document.getElementById("bmi-weight").value),
