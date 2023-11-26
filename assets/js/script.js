@@ -71,3 +71,11 @@ function toggleAccordion() {
     }
 }
 items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+// Function to update and display the current year
+function updateYear() {
+    const now = new Date();
+    const year = now.getFullYear();
+    document.getElementById('year').innerText = year;
+}
+updateYear();
