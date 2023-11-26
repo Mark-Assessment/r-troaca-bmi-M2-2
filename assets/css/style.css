@@ -67,7 +67,6 @@ body {
     padding-top: 20px;
     margin: auto;
     padding-bottom: 20px;
-
 }
 
 .bmi-header {
@@ -92,18 +91,17 @@ body {
     color: #fff;
     background: #00a8c3;
     cursor: pointer;
-
 }
 
 #bmi-form input[type=submit]:hover {
     color: #fff;
     background: #001a8c;
     transition: 0.5s ease-in-out;
-
 }
 
 #bmi-form {
-    box-shadow: 5px 5px 5px rgb(66, 65, 65);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Initial shadow */
+    transition: box-shadow 0.3s ease-out;
     border-radius: 10px;
     background: #b3b1b1;
     padding: 20px;

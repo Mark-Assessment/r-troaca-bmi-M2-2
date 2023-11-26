@@ -59,7 +59,7 @@ function calcBMI() {
     return false;
 }
 
-//Accordion toggle function
+// Accordion toggle function
 let items = document.querySelectorAll('.accordion button');
 function toggleAccordion() {
     let itemToggle = this.getAttribute('aria-expanded');
@@ -79,3 +79,13 @@ function updateYear() {
     document.getElementById('year').innerText = year;
 }
 updateYear();
+
+// Box Shadow Motion function
+const bmiForm = document.getElementById('bmi-form');
+
+function smoothShadowMotion() {
+    const offsetX = Math.sin(new Date().getTime() * 0.002) * 8; // Adjust the shadow motion intensity
+    bmiForm.style.boxShadow = `${offsetX}px 5px 15px rgba(0, 0, 0, 0.3)`;
+    requestAnimationFrame(smoothShadowMotion);
+}
+smoothShadowMotion();
