@@ -29,6 +29,7 @@ Welcome to my user-friendly BMI Calculator website! This platform offers a simpl
   - [**Testing Phase**](#testing-phase)
     - [**Testing During Development**](#testing-during-development)
       - [**Manual Testing**](#manual-testing)
+      - [**Automated Testing**](#automated-testing)
       - [**User Story Testing**](#user-story-testing)
       - [**Functionality testing**](#functionality-testing)
       - [**Bugs and fixes**](#bugs-and-fixes)
@@ -113,7 +114,7 @@ The header element includes the title of the website and has a gradient backgrou
 
 ## **Footer**
 
-The footer includes a copyright notice at the bottom and has the same gradient background as the header, but the gradient is reversed.
+The footer includes a copyright notice at the bottom and has the same gradient background as the header, but the gradient is reversed. The footer also includes a function that automatically updates the date.
 ![Footer](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/footer.png?raw=true)
 
 ## **Page Content features**
@@ -124,7 +125,7 @@ The footer includes a copyright notice at the bottom and has the same gradient b
   
 ![What is BMI section](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/what-is-bmi.png?raw=true)
 
-- The home page also contains the BMI calculator right after the What is BMI section. It gives the user the option to switch between measuring units, either Metric or Imperial. The calculator has 2 input fields, one for weight(either in kg or lbs) and one for height(cm or inches). Next to the "Calculate BMI" button, the result of the user's input will appear.
+- The home page also contains the BMI calculator right after the What is BMI section. It gives the user the option to switch between measuring units, either Metric or Imperial. The calculator has 2 input fields, one for weight(either in kg or lbs) and one for height(cm or inches). Next to the "Calculate BMI" button, the result of the user's input will appear. The BMI calculator form has a function that makes the shadow of the form have a smooth motion to the left and right.
   
 ![BMI calculator](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/bmi-calculator.png?raw=true)
 
@@ -170,6 +171,23 @@ During the development process, I have been constantly testing the website in th
 
 #### **Manual Testing**
 
+**Principles:**
+
+1. **Exploratory Testing:** Manual testing is excellent for exploratory testing, where testers actively explore the application to discover unforeseen issues and usability problems.
+
+2. **User Experience (UX) Testing:** Manual testers can assess the application's user-friendliness, usability, and overall user experience, providing valuable insights.
+
+3. **Ad Hoc Testing:** In situations where test cases aren't well-defined or documented, manual testers can perform ad hoc testing to identify issues.
+
+4. **Non-Functional Testing:** Tests related to subjective criteria like aesthetics, layout, and overall look and feel are often better suited for manual testing.
+
+**When to Deploy Manual Testing:**
+
+- **Usability Testing:** To evaluate the user interface and overall user experience.
+- **Exploratory Testing:** When new features are introduced or when test cases are not yet well-defined.
+- **Complex Test Scenarios:** For intricate and multi-step test cases where human intuition is required.
+- **Non-Functional Testing:** Assessing subjective aspects like aesthetics, accessibility, and human factors.
+
 * While testing the website, I have used 4 different browsers to make sure that it is cross-compatible. The desktop browsers I have used for the tesing were:
 
   - Firefox
@@ -178,6 +196,31 @@ During the development process, I have been constantly testing the website in th
   - DuckDuckGo
 
 - I have also asked other people to test the website, using their personal iPhones and Macbooks using Safari, since I don't have access to these devices. To which they reported that they have not encountered any bugs.
+
+#### **Automated Testing**
+
+**Principles:**
+
+1. **Repeatability:** Automated tests can be executed repeatedly without any variation in their steps and expected outcomes.
+
+2. **Consistency:** Automated tests perform the same steps and checks each time, eliminating human errors and ensuring consistent results.
+
+3. **Efficiency:** Automated tests can run quickly and efficiently, covering a large number of test cases in a short time.
+
+4. **Regression Testing:** Automated tests are particularly useful for regression testing, where previously tested functionality is retested to ensure that new changes have not introduced defects.
+
+5. **Data-Driven Testing:** Automation allows for data-driven testing, where tests are executed with different sets of data to verify various scenarios.
+
+6. **Continuous Integration/Continuous Deployment (CI/CD):** Automated tests can be integrated into the CI/CD pipeline, allowing for immediate feedback on code changes and ensuring that only high-quality code is deployed.
+
+**When to Deploy Automated Testing:**
+
+- **Regression Testing:** Automated tests are ideal for regularly checking existing functionality after code changes.
+- **Highly Repetitive Tests:** Tasks like data validation, login/logout procedures, and API testing can be automated for efficiency.
+- **Load and Performance Testing:** Automated tools can simulate a large number of users to test system performance under heavy loads.
+- **Cross-Browser and Cross-Platform Testing:** Automated frameworks can be used to test web applications on different browsers and platforms.
+
+Automated testing can be a powerful tool for catching bugs early on and ensuring that the application is working as expected. While I fully acknowledge the benefits of automated testing and the value it adds to the overall development process, due to time constraints, implementing and maintaining Jest for automated testing was not possible.
 
 #### **User Story Testing**
 
@@ -275,7 +318,7 @@ During my manual testing, I have tested every user story, to ensure that the nee
 
 #### ***JSHint*** - <https://jshint.com/>
 
-![JSHint results](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/jshint-results.png?raw=true)
+![JSHint results](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/jshint-result.png?raw=true)
 
 #### **Lighthouse Scores**
 
