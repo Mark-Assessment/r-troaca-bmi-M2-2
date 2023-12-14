@@ -230,15 +230,21 @@ During my manual testing, I have tested every user story, to ensure that the nee
   - Issue: there was no description of what BMI is.
   - Resolution: I added a brief but comprehensive description of what the Body Mass Index represents.
 
+![User Story 1](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/userstory1.png?raw=true)
+
 - As a user I want to be able to easily navigate the page to find what I require in a quickly manner.
   - Issue: the user had to scroll for a long time up and down to find what they were interested in.
   - Cause: the calculator was not placed at the top of the page.
   - Resolution: I moved the calculator at the beginning of the page, so the user can quickly access it.
+  
+![User Story 2](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/userstory2.png?raw=true)
 
 - As a health-conscious individual, I want the BMI calculator to provide me with a clear breakdown of what different BMI ranges mean in terms of health and potential risks, helping me understand the implications of my result.
   - Issue: the user could not find a description of what the BMI ranges are.
   - Cause: there was a BMI colour coded chart, but no clear breakdown of the ranges.
   - Resolution: I added a short description of the BMI ranges underneath the chart and also added in the FAQ section 2 questions and their respective answers that target the potential health risks of some of the BMI ranges.
+
+![User Story 3](https://github.com/RazvanTr10/BMI-zing/blob/main/assets/images/userstory3.png?raw=true)
 
 - As a fitness enthusiast, I want the BMI calculator to allow me to input both metric and imperial measurements, giving me the flexibility to use the unit system I'm most comfortable with.
   - Issue: the user could not select their prefered measuring unit system.
